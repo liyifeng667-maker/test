@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea21e7e7-7fc7-42c4-81ac-f80d6c8e6bbb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/src/main/java/com/lanfan/zhgd/controller/ElementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/src/main/java/com/lanfan/zhgd/controller/ElementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/classes/com/lanfan/zhgd/controller/ElementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/classes/com/lanfan/zhgd/controller/ElementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/ElementWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/ElementWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FileSplitWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FileSplitWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FileTypeWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FileTypeWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FilesWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FilesWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FilingPathWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/FilingPathWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/LfProjectWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/LfProjectWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/ProjectsWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/generated-sources/annotations/com/lanfan/zhgd/service/mapstruct/ProjectsWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/lanfan-zhgd-9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-module/lanfan-zhgd/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/AreaWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/AreaWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/DataRuleWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/DataRuleWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/DictTypeWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/DictTypeWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/DictValueWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/DictValueWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/LogWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/LogWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/MenuWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/MenuWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/OfficeWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/OfficeWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/PostWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/PostWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/RoleWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/RoleWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/SysConfigWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/SysConfigWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/UserWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/generated-sources/annotations/com/jeeplus/sys/service/mapstruct/UserWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/jeeplus-admin-9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-common/target/jeeplus-common-9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-platform/jeeplus-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datalink/service/mapstruct/DataSourceWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datalink/service/mapstruct/DataSourceWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datamodel/service/mapstruct/DataMetaWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datamodel/service/mapstruct/DataMetaWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datamodel/service/mapstruct/DataParamWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datamodel/service/mapstruct/DataParamWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datamodel/service/mapstruct/DataSetWrapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/generated-sources/annotations/com/jeeplus/database/datamodel/service/mapstruct/DataSetWrapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/jeeplus-datasource-9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-file/target/jeeplus-file-9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-file/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-file/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-file/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-console/jeeplus-plugins/jeeplus-file/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jp-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jp-ui/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="shy" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1686913699" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="shy" />
+                    <option name="lastUsedInstant" value="1686913625" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/apache-maven-3.6.1/mvn_repository" />
+        <option name="mavenHome" value="$USER_HOME$/Documents/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RHidrAxTtoIqSB5lJfyMvvh6Yc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jackson/IdeaProjects/lf-yxjp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.40229884",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JeeplusWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jeeplus-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeeplus.JeeplusWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea21e7e7-7fc7-42c4-81ac-f80d6c8e6bbb" name="Changes" comment="" />
+      <created>1685333410282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685333410282</updated>
+      <workItem from="1686913499729" duration="1114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

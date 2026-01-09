@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 常量引用 -->
+    <property name="LOG_HOME"  value="../logs" />
+    <property name="FORMAT"  value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    <property name="FORMAT_CONSOLE"  value="%d{yyyy-MM-dd HH:mm:ss} [%thread] [%class:%line] %-5level - %msg%n" />
+    <property name="FORMAT_FILE" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%class:%line] %-5level --%mdc{client} %logger - %msg%n"/>
+    
+    <!-- 控制台日志 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${FORMAT_CONSOLE}</pattern>
+            <!-- 
+            <charset>UTF-8</charset> 
+             -->
+        </encoder>
+    </appender>
+
+    <!-- warn日志 appender -->
+    <appender name="WARN_OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/warn.log</file>
+        <append>true</append>  
+        <encoder>
+            <pattern>${FORMAT_FILE}</pattern>
+        </encoder>
+        <!-- 日志级别过滤器 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/warn-%d{yyyy-MM-dd HH:mm:ss}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- error日志 appender -->
+    <appender name="ERROR_OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/error.log</file>
+        <encoder>
+            <pattern>${FORMAT_FILE}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/error-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    
+    <appender name="ALL_OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">  
+        <file>${LOG_HOME}/all.log</file>  
+        <append>true</append>  
+        <encoder>  
+            <pattern>${FORMAT_FILE}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">  
+            <fileNamePattern>${LOG_HOME}/all-%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>  
+            <maxHistory>30</maxHistory>  
+            <timeBasedFileNamingAndTriggeringPolicy  class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+		        <maxFileSize>50MB</maxFileSize>
+		    </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy> 
+    </appender>  
+    <logger name="java.sql.Connection" level="DEBUG" additivity="false"/>
+    <logger name="java.sql.Statement" level="DEBUG" additivity="false"/>
+    <logger name="java.sql.PreparedStatement" level="DEBUG" additivity="false"/>
+    <logger name="java.sql.ResultSet" level="DEBUG" additivity="false"/>
+    <logger name="backend" level="DEBUG" additivity="false"/>
+    
+    
+    
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+        <!--  
+        <appender-ref ref="WARN_OUT" />
+        <appender-ref ref="ERROR_OUT" />
+        -->
+        <appender-ref ref="ALL_OUT" />
+    </root>
+</configuration>

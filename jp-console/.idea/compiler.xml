@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for jeeplus cloud" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/Documents/apache-maven-3.6.1/mvn_repository/org/mapstruct/mapstruct-processor/1.4.1.Final/mapstruct-processor-1.4.1.Final.jar" />
+          <entry name="$USER_HOME$/Documents/apache-maven-3.6.1/mvn_repository/org/mapstruct/mapstruct/1.4.1.Final/mapstruct-1.4.1.Final.jar" />
+          <entry name="$USER_HOME$/Documents/apache-maven-3.6.1/mvn_repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$USER_HOME$/Documents/apache-maven-3.6.1/mvn_repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="jeeplus-common" />
+        <module name="jeeplus-datasource" />
+        <module name="jeeplus-admin" />
+        <module name="jeeplus-web" />
+        <module name="lanfan-zhgd" />
+        <module name="jeeplus-file" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jeeplus-calendar" target="1.8" />
+      <module name="jeeplus-datascreen" target="1.8" />
+      <module name="jeeplus-echarts" target="1.8" />
+      <module name="jeeplus-flowable" target="1.8" />
+      <module name="jeeplus-form" target="1.8" />
+      <module name="jeeplus-mail" target="1.8" />
+      <module name="jeeplus-monitor" target="1.8" />
+      <module name="jeeplus-notify" target="1.8" />
+      <module name="jeeplus-quartz" target="1.8" />
+      <module name="jeeplus-tools" target="1.8" />
+      <module name="jeeplus-ureport" target="1.8" />
+      <module name="jeeplus-wps" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jeeplus" options="-parameters" />
+      <module name="jeeplus-admin" options="-parameters" />
+      <module name="jeeplus-calendar" options="-parameters" />
+      <module name="jeeplus-common" options="-parameters" />
+      <module name="jeeplus-datascreen" options="-parameters" />
+      <module name="jeeplus-datasource" options="-parameters" />
+      <module name="jeeplus-echarts" options="-parameters" />
+      <module name="jeeplus-file" options="-parameters" />
+      <module name="jeeplus-flowable" options="-parameters" />
+      <module name="jeeplus-form" options="-parameters" />
+      <module name="jeeplus-mail" options="-parameters" />
+      <module name="jeeplus-module" options="-parameters" />
+      <module name="jeeplus-monitor" options="-parameters" />
+      <module name="jeeplus-notify" options="-parameters" />
+      <module name="jeeplus-platform" options="-parameters" />
+      <module name="jeeplus-plugins" options="-parameters" />
+      <module name="jeeplus-quartz" options="-parameters" />
+      <module name="jeeplus-tools" options="-parameters" />
+      <module name="jeeplus-ureport" options="-parameters" />
+      <module name="jeeplus-web" options="-parameters" />
+      <module name="jeeplus-wps" options="-parameters" />
+      <module name="lanfan-zhgd" options="-parameters" />
+    </option>
+  </component>
+</project>
